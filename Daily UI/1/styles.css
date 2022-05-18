@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ebeef6;
+    padding: 80px;
+}
+.main {
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left {
+    margin: 0 auto;
+    width: 50%;
+}
+.right {
+    margin: 0 auto;
+    width: 50%;
+}
+.container {
+    padding: 60px 100px;
+    width: 500px;
+}
+.text {
+    color: grey;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+.top-text {
+    margin-bottom: 150px;
+}
+h1 {
+   font-size: 40px;
+}
+.left p {
+    line-height: 15px;
+}
+input {
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    padding: 0 20px;
+    position: relative;
+    border-radius: 5px;
+}
+input[type=email] {
+    background-image: url(./assets/at-sign.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 50% right 10px;
+}
+input[type=password] {
+    background-image: url(./assets/lock.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 50% right 10px;
+}
+input:focus {
+    border: none;
+}
+.form-container {
+    position: relative;
+    margin: 40px auto;
+}
+label {
+    color: gray;
+    background-color: #fff;
+    padding: 0;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    padding: 5px;
+    z-index: 1;
+}
+button {
+    background-color: #2028eb;
+    border: none;
+    color: #fff;
+    width: 100%;
+    max-width: 443px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+}
+button:hover {
+    background-color: #474ce8 ;
+    cursor: pointer;
+}
