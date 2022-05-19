@@ -20,29 +20,37 @@
           <div class="text top-text">
             Have and account? <a href="#">Sign in</a>
           </div>
-          <h1>Welcome to Our Website</h1>
-          <p class="text">We hope to serve with the best of our ability.</p>
-          <p class="text">Please Enter your information below to signup</p>
-          <div class="form-container">
-            <label for="email">E-mail</label>
-            <input name="email" type="email" placeholder="example@mail.com" required />
+
+            <h1>Welcome to Our Website</h1>
+            <p class="text">We hope to serve with the best of our ability.</p>
+            <p class="text">Please Enter your information below to signup</p>
+            <div class="login-container">
+            <div class="form-container">
+              <label for="email">E-mail</label>
+              <input
+                name="email"
+                type="email"
+                placeholder="example@mail.com"
+                required
+              />
+            </div>
+            <div class="form-container">
+              <label for="password">Password</label>
+              <input
+                name="password"
+                type="password"
+                placeholder="6+ strong characters"
+                required
+                minlength="6"
+              />
+            </div>
+            <button>Create an account</button>
           </div>
-          <div class="form-container">
-            <label for="password">Password</label>
-            <input
-            name="password"
-              type="password"
-              placeholder="6+ strong characters"
-              required
-              minlength="6"
-            />
-          </div>
-          <button>Create an account</button>
-          <div>Or sign up with</div>
+          <span class="text tp-login">Or sign up with</span>
           <div class="logos">
-            <div class="logo"></div>
-            <div class="logo"></div>
-            <div class="logo"></div>
+            <div class="logo"><img src="./assets/Google_'G'_Logo.svg.png" alt="google logo" ></div>
+            <div class="logo"><img src="./assets/Facebook_Logo.png" alt="Facebook_Logo"></div>
+            <div class="logo"><img src="./assets/Apple_logo_black.svg.png" alt="apple logo"></div>
           </div>
         </div>
       </section>
