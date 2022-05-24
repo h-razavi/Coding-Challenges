@@ -57,6 +57,7 @@ h3 {
     background-color: #fff;
     border-radius: 16px;
     padding: 24px;
+    overflow: hidden;
 }
 .summary-box {
     width: 400px;
@@ -64,16 +65,23 @@ h3 {
     background-color: #fff;
     border-radius: 16px;
 }
-hr {
-    border: 1px solid rgb(246, 239, 233);
-    width: 120%;
-    position: relative;
-    left: -30px;
-}
 .card-top {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.separator-line {
+    content: '';
+    width: 120%;
+    background-color: rgb(246, 239, 233);
+    height: 2px;
+    transform: translateX(-10%);
+    margin: 9px 0;
 }
 .card-logos img {
     margin-left: 8px;
 }
+input[type=radio] {
+    margin-right: 12px;
+  }
